@@ -26,7 +26,7 @@ public class Exercise2 {
             // Recursive call
             driving(driver);
         } else if (feedback.equals("yes")) {
-            serve(driver);
+            lesson(driver);
         }
     }
 
@@ -48,7 +48,7 @@ public class Exercise2 {
         System.out.println("Taking Recommendation. Improving " + skill);
     }
 
-    static void serve(String driver) {
+    static void lesson(String driver) {
         System.out.println("Passed Driving ");
     }
 
